@@ -40,7 +40,7 @@ export const InformationPage = () => {
     
   return (
     
-    <Container sx={{display:"flex" , flexDirection:"column" , gap:"20px" , marginTop:"10px"}}>
+    <Container sx={{display:"flex" , flexDirection:"column" , gap:"20px" , marginTop:"10px" , height:"100vh"}}>
       
       <Typography sx={{display:"flex" , gap:"4px"}}>
         <KeyOutlinedIcon sx={{color:"#FED16A"}}/>
@@ -54,7 +54,7 @@ export const InformationPage = () => {
 
       <Typography sx={{display:"flex" , gap:"4px"}}>
         <BedtimeRoundedIcon sx={{color:"#FED16A"}}/>
-        <Typography>HOLIDAY:</Typography>
+        <Typography>HOLIDAY:NONE</Typography>
       </Typography>
     </Container>
   );
